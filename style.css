@@ -2,6 +2,8 @@
    BASIC / LIGHT MODE
    ========================= */
 
+/* THIS A COMMENT TO UPDATE CSS */
+
 * {
   box-sizing: border-box;
 }
@@ -16,9 +18,10 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f7fb;
   color: #222;
-  transition: background-color 0.4s ease, color 0.4s ease;
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease;
 }
-
 
 /* =========================
    HEADER
@@ -41,7 +44,6 @@ header h1 {
 header p {
   font-size: 1.1rem;
 }
-
 
 /* =========================
    NAVIGATION
@@ -81,7 +83,6 @@ nav ul li a:hover {
   transform: translateY(-2px);
 }
 
-
 /* =========================
    THEME BUTTON
    ========================= */
@@ -113,7 +114,6 @@ nav ul li a:hover {
   transform: scale(1.05);
 }
 
-
 /* =========================
    SECTIONS
    ========================= */
@@ -144,7 +144,6 @@ nav ul li a:hover {
   border-bottom: 3px solid #3498db;
 }
 
-
 /* =========================
    EDUCATION / INTERNSHIP ITEMS
    ========================= */
@@ -171,7 +170,6 @@ nav ul li a:hover {
 
   box-shadow: 0 5px 15px rgba(52, 152, 219, 0.2);
 }
-
 
 /* =========================
    CONTACT + ADMIN FORMS
@@ -229,7 +227,6 @@ nav ul li a:hover {
   resize: vertical;
 }
 
-
 /* =========================
    FORM BUTTONS
    ========================= */
@@ -259,7 +256,6 @@ nav ul li a:hover {
   transform: translateY(-2px);
 }
 
-
 /* =========================
    ADMIN LOGIN / USER RESPONSE
    ========================= */
@@ -272,7 +268,6 @@ nav ul li a:hover {
   display: none;
 }
 
-
 /* =========================
    DARK MODE
    ========================= */
@@ -282,15 +277,10 @@ nav ul li a:hover {
   color: #eeeeee;
 }
 
-
 /* Header */
 
 .dark-theme header {
-  background: linear-gradient(
-    to right,
-    #1b2735,
-    #162b2f
-  );
+  background: linear-gradient(to right, #1b2735, #162b2f);
 
   color: #ffffff;
 
@@ -298,7 +288,6 @@ nav ul li a:hover {
 
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
 }
-
 
 /* Navigation */
 
@@ -317,7 +306,6 @@ nav ul li a:hover {
   background-color: #287ea3;
 }
 
-
 /* Sections */
 
 .dark-theme .section-blocks {
@@ -331,7 +319,6 @@ nav ul li a:hover {
   color: #5dade2;
   border-bottom-color: #3498db;
 }
-
 
 /* Section items */
 
@@ -350,14 +337,12 @@ nav ul li a:hover {
   box-shadow: 0 5px 20px rgba(52, 152, 219, 0.2);
 }
 
-
 /* Form labels */
 
 .dark-theme #contact-form label,
 .dark-theme #admin-form label {
   color: #eeeeee;
 }
-
 
 /* Form inputs */
 
@@ -385,7 +370,6 @@ nav ul li a:hover {
   box-shadow: 0 0 10px rgba(93, 173, 226, 0.25);
 }
 
-
 /* Form buttons */
 
 .dark-theme #contact-form button,
@@ -397,7 +381,6 @@ nav ul li a:hover {
 .dark-theme #admin-form button:hover {
   background-color: #3498db;
 }
-
 
 /* Theme button */
 
@@ -413,13 +396,13 @@ nav ul li a:hover {
   color: white;
 }
 
-
 /* =========================
    ANIMATIONS
    ========================= */
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
 
@@ -427,7 +410,6 @@ nav ul li a:hover {
     transform: translateY(-8px);
   }
 }
-
 
 @keyframes slide-in {
   from {
@@ -441,13 +423,11 @@ nav ul li a:hover {
   }
 }
 
-
 /* =========================
    MOBILE RESPONSIVE
    ========================= */
 
 @media (max-width: 600px) {
-
   body {
     padding: 10px;
   }
@@ -542,7 +522,6 @@ nav ul li a:hover {
   margin-bottom: 5px;
 }
 
-
 /* Dark Mode */
 
 .dark-theme #projects .section-item h3 {
@@ -557,11 +536,9 @@ nav ul li a:hover {
   color: #5dade2;
 }
 
-
 /* Mobile */
 
 @media (max-width: 600px) {
-
   #projects .section-item {
     margin-right: 5px;
   }
@@ -569,5 +546,4 @@ nav ul li a:hover {
   .project-objectives {
     padding: 10px;
   }
-
 }
