@@ -1,0 +1,160 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Pen</title>
+  </head>
+  <body>
+    
+    <header><!--Container Tag -->
+      <h1>Arnab Panja</h1>
+      <p> Pesuing B.Tech degree in CSE from BPPIMT. I am interested in full stack devolapment</p>
+    </header>
+
+    <nav><!--Container Tag -->
+      <ul><!--Container Tag -->
+        <li><a href ="#education">Education</a></li>
+        <li><a href ="#internship">Interships</a></li>
+        <li><a href ="#projects">Projects</a></li>
+  
+        <li><a href ="#contact-me">Contact Me</a></li>
+        <li><a href ="#admin-login" id = "admin-btn">Admin Login</a></li>
+      </ul>
+    
+    </nav>
+
+    <button id = "toggle-theme">ToggleTheme</button>
+
+    <!--Educatuon-->
+    <section id="education" class ="section-blocks"> <!--Container tag -->      
+      <h2>Education</h2>
+  
+        <div class="section-item">
+          <h3>H.S (Science)</h3>
+          <p>Vidyasaga Vidyapith(WBHSE)</p>
+          <p>2023</p>
+          <p>88%</p>
+        </div>
+        
+        <div class="section-item">
+           <h3>B. Tech CSE</h3>
+           <p>BPPIMT, Kolkata</p>
+           <p>2027</p>
+          <p>8.3</p>
+        </div>
+        
+    </section>
+<!--Intership -->
+    <section id="internship" class ="section-blocks"> <!--Container tag -->      
+      <h2>Internship</h2>
+  
+        <div id ="internship1" class="section-item">
+          <h3>ML</h3>
+          <p>TechGent</p>
+          <p>2026</p>
+        </div>
+        
+        <div id = "internship2" class="section-item">
+           <h3>FULL Stack Web Dev</h3>
+           <p>BharatSkill</p>
+           <p>2026</p>
+        </div>
+        
+    </section>
+
+    <!-- Projects -->
+<section id="projects" class="section-blocks">
+
+  <h2>Projects</h2>
+
+  <div class="section-item">
+
+    <h3>E-Commerce Platform for Electronic Products</h3>
+
+    <p><strong>Type:</strong> Full-Stack Web Application (Ongoing)</p>
+
+    <p>
+      An e-commerce platform for electronic products that allows
+      users to search and sort products according to their requirements,
+      manage products in a cart, and securely access the application
+      through authentication.
+    </p>
+
+    <p><strong>Technologies:</strong></p>
+
+    <ul class="project-tools">
+      <li>Frontend - React</li>
+      <li>Backend - Spring Boot</li>
+      <li>Database - MySQL</li>
+    </ul>
+
+    <div class="project-objectives">
+      <h4>Key Features</h4>
+
+      <ul>
+        <li>Search and sort products</li>
+        <li>Cart functionality</li>
+        <li>Backend APIs</li>
+        <li>User authentication</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+    <!--Contact me-->
+    <section id = "contact-me" class="section-blocks">
+      <h2>Contact Me</h2>
+      
+      <form id= "contact-form"><!--form validation -->
+        <div id = "name">
+          <label>Name: </label>
+          <input type="text" id= "input-name" required>
+        </div>
+        
+        <div id = "email">
+          <label>Email: </label>
+          <input type="email" id = "input-email" required>
+        </div>
+
+        <div id = "message">
+          <label>Message: </label>
+          <textarea required id = "input-msg"></textarea>
+        </div>
+
+        <button type = "submit">Submit</button>
+      </form>
+      
+    </section>
+
+    <!--Admin Login-->
+    <section id="admin-login" class ="section-blocks">
+      <h2>Admin Login</h2>
+    
+       <form id="admin-form"><!--form validation -->
+          <div id = "Username">
+            <label>UserName: </label>
+            <input type="text" required id = "input-username">
+          </div>
+          
+          <div id = "Password">
+            <label>Password: </label>
+            <input type="password" required id = "input-password">
+          </div>
+  
+          <button>Submit</button>
+        </form>
+      </section>
+    <!-- user response section -->
+      <section id = "user-response" class ="section-blocks">
+        <h2>User Response</h2>
+
+        <div id = "user-messages">
+          
+        </div>
+        
+      </section>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
